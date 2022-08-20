@@ -1,0 +1,15 @@
+﻿<Window x:Class="PacMan.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PacMan"
+        mc:Ignorable="d"
+        Title="Pacman " Height="2000" Width="2000" Loaded="MyLoaded" WindowState="Maximized" >
+    <Canvas x:Name="canvasGame" Background="Black" KeyDown="CanvasKeyDown" Focusable="True" Margin="0,0,0,0"  >
+        <Label FontSize="16" Name="txtScore" Foreground="White" Content="Score: 0" Canvas.Left="17" />
+        <Label Name="TimerLabel" Content="200" Foreground="White" FontSize="16" Canvas.Left="656"/>
+        <Label Content="If  the timer runs out you lose!" Foreground="White" FontSize="16" Canvas.Left="428" RenderTransformOrigin="-0.02,0.689"/>
+        <Rectangle Name="pacman" Height="32" Canvas.Left="18" Stroke="Black" Canvas.Top="560" Width="32" Fill="Yellow"/>
+    </Canvas>
+</Window>

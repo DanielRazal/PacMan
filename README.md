@@ -7,6 +7,8 @@ your goal is to collect all the coins.
 
 **How to run the project?**
 
+**It is important to run the project from the desktop**
+
 1) Open Visual Studio 2022.
 
 2) Open the PacMan file.
